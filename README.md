@@ -7,7 +7,7 @@ MyGamestocks is Web Application for video game collectors, enthusiasts or anyone
 This Application was built by a team of eight Full Stack Software Engineers from the Hack Reactor, Austin, 50th Cohort (HRATX50).
 
 ## Visit the Website and interact!
-<a href="https://mygamestocks.com/">MyGameStocks.com</a>
+<a href="https://mygamestocks.com/"><h2>MyGameStocks.com</h2></a>
 
 
 ## Demo 1
@@ -25,7 +25,7 @@ This Application was built by a team of eight Full Stack Software Engineers from
   * [Mariella Arias]: 
   * [Andrew Binkard]: Tasked with developing and implementing the user profile component of this web app, used React functional components exclusively and managed state with hooks to dynamically render individual item records, utilized styled components for a consistent all-around look and visual user experience, created a user-friendly front-end interface to allow for efficient interaction with users’ collections, implemented RESTful API routes through a Node.js/Express server and PostgreSQL queries to allow for fast, consistent, sorting to support the above front-end functionality, and implemented pagination natively with JavaScript without the use of an external dependency in order to keep the app lightweight
   * [Danielle Blom]: UX Design Lead - Created wireframes, researched/implemented eBay API routes, and funtionality to save items to the database
-  * [Steven Brotherton]: Architect Lead
+  * [Steven Brotherton]: Architect Lead - Compared and ultimately decided on the tech stack and git workflow used on this project. Created SOPs for team consistency and partnered with Mariella Arias on building out the authoriation of the site implementing Bcrypt and JSON Web Tokens to ensure user permissions without bulking up the database with extra salt or session cookie columns. Organized a class and subclass system of database query implementation to seperate concerns and enhance code readability. Had a hand in each component as system architect working to eliminate any connection issues or bugs. Finally, deployed the site to https://mygamestocks.com.
   * [Mike Champagne]: Project Manager
   * [Rahul Chauhan]: 
   * [Belle Nguyen]: 
@@ -89,7 +89,7 @@ Go to localhost:7711/
 ```
 
 ### Workflow
-Our team managed workflow and responsibilities by utilizing Agile methodology. Trello was used to to keep track of tickets. With git feature branch workflow, our team ensured that the master branch always contained working code. Developers created feature branches off the development branch, then merged into development upon completion of that feature after approval of the pull request.
+Our team managed workflow and responsibilities by utilizing Agile methodology. Trello was used to to keep track of tickets. With an adapted gitflow, our team ensured that the master branch always contained working code. Developers created feature branches off the development branch, then merged into development upon completion of that feature after approval of the pull request.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
